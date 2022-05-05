@@ -1,6 +1,6 @@
 pipeline {
 environment {
-registry = "vinodh1988leo"
+registry = "sathish529"
 registryCredential = 'dockerCredentials'
 dockerImage = 'flask-app-docker'
 }
@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning our Git') {
 steps {
-git 'https://github.com/vinodh1988/sre-flask-app'
+git 'https://github.com/Sathish529/jenkins-pipeline'
 }
 }
 stage('Building our image') {
