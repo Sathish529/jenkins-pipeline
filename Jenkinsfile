@@ -1,6 +1,6 @@
 pipeline {
 environment {
-registry = "sathish529"
+registry = "Sathish529"
 registryCredential = 'dockerCredentials'
 dockerImage = 'flask-app-docker'
 }
